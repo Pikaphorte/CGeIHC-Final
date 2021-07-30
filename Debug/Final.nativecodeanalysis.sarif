@@ -1,0 +1,4702 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Desreferenciando el puntero NULL 'y'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3866,
+                  "startColumn": 51,
+                  "endLine": 3866,
+                  "endColumn": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?load_jpeg_image@@YAPAEPAUstbi__jpeg@@PAH11H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3723,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3723,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3723,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3724,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3727,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3730,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3733,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3735,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3737,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3740,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3744,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3745,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3745,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3746,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3747,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3749,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3751,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3751,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3774,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3775,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3778,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3778,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3779,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3780,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3780,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3794,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3837,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3847,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3857,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3864,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "'y' puede ser NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaración"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3865,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar en esta bifurcación, (se asume 'n==1')"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3866,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3866,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar en este bucle, (se asume 'i<z->s->img_x')"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 3866,
+                            "startColumn": 58
+                          }
+                        },
+                        "message": {
+                          "text": "'y' se desreferencia, pero puede que siga siendo NULL"
+                        }
+                      },
+                      "kinds": [
+                        "uso"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6308",
+          "message": {
+            "text": "'realloc' puede devolver un puntero nulo: se asignará un puntero nulo a '*delays', que se pasó como argumento en 'realloc', provocará que el bloque de memoria original tenga pérdidas."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6712,
+                  "startColumn": 36,
+                  "endLine": 6712,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stbi__load_gif_main@@YAPAXPAUstbi__context@@PAPAHPAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "La función usa '34956' bytes de la pila:  supera /analyze:stacksize '16384'. Considere mover algunos datos al montón."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6677,
+                  "startColumn": 14,
+                  "endLine": 6677,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stbi__load_gif_main@@YAPAXPAUstbi__context@@PAPAHPAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Desreferenciando el puntero NULL. '*delays' contiene el mismo valor NULL que contenía 'realloc()`6712'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6726,
+                  "startColumn": 17,
+                  "endLine": 6726,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stbi__load_gif_main@@YAPAXPAUstbi__context@@PAPAHPAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6679,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6680,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6681,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6682,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6683,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6684,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6685,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6686,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6687,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6688,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6692,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6693,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6695,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6696,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6697,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6698,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6699,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6701,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6715,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6716,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6717,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6720,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6721,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6725,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6726,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6729,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6692,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6693,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6695,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6696,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6697,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6698,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6699,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6701,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6702,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6703,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6710,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6711,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 38,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6712,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'*delays' puede ser NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaración"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 39,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6720,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 40,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6721,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar en esta bifurcación, (se asume 'layers>=2')"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 41,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6722,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 42,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6725,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar en esta bifurcación, (se asume 'delays')"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 43,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                          },
+                          "region": {
+                            "startLine": 6726,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "'*delays' se desreferencia, pero puede que siga siendo NULL"
+                        }
+                      },
+                      "kinds": [
+                        "uso"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "La función usa '34932' bytes de la pila:  supera /analyze:stacksize '16384'. Considere mover algunos datos al montón."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6747,
+                  "startColumn": 14,
+                  "endLine": 6747,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stbi__gif_load@@YAPAXPAUstbi__context@@PAH11HPAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"SDL_bool\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/SDL/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "SDL_PointInRect",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"Camera_Movement\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/camera.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 10,
+                  "endLine": 70,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ProcessKeyboard@Camera@@QAEXW4Camera_Movement@@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiLightSourceType\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/light.h"
+                },
+                "region": {
+                  "startLine": 241,
+                  "startColumn": 35,
+                  "endLine": 241,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0aiLight@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiPropertyTypeInfo\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.h"
+                },
+                "region": {
+                  "startLine": 632,
+                  "startColumn": 12,
+                  "endLine": 632,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0aiMaterialProperty@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiReturn\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.h"
+                },
+                "region": {
+                  "startLine": 1437,
+                  "startColumn": 5,
+                  "endLine": 1437,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "aiGetMaterialFloat",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiTextureType\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.inl"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 29,
+                  "endLine": 67,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiTextureMapping\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.inl"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 29,
+                  "endLine": 67,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiTextureOp\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.inl"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 29,
+                  "endLine": 67,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiTextureMapMode\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.inl"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 29,
+                  "endLine": 67,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiAnimBehaviour\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/anim.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 16,
+                  "endLine": 334,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0aiNodeAnim@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"aiMetadataType\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/metadata.h"
+                },
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 49,
+                  "endLine": 99,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetAiType@@YA?AW4aiMetadataType@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"Texture::id\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/mesh.h"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 1,
+                  "endLine": 35,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Texture@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Texture::id"
+          }
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando la memoria sin inicializar 'format'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                },
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 34,
+                  "endLine": 225,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?TextureFromFile@@YAIPBDABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 210,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 212,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 212,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 212,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 213,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 214,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 216,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'format' no se ha inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaración"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 217,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'nrComponents==1' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'nrComponents==3' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 221,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'nrComponents==4' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 224,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 228,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 230,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 231,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 233,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "Se usa 'format', pero puede que no se haya inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "uso"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando la memoria sin inicializar 'format'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 35,
+                  "endLine": 137,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?loadTexture@Skybox@@AAEIPBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'format' no se ha inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaración"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'nrComponents==1' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'nrComponents==3' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'nrComponents==4' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Se usa 'format', pero puede que no se haya inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "uso"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29337.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "G:\\VisualStudio\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x009DB1D0 -il C:\\Users\\1\\AppData\\Local\\Temp\\_CL_d8be1856ast -typedil -f Final.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829337 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\Users\\1\\Documents\\Visual Studio 2019\\Projects\\Practica1\\Practica1\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Final.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\1\\Documents\\Visual Studio 2019\\Projects\\Practica1\\Practica1 -analyze:rulesetdirectory ;G:\\VisualStudio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset G:\\VisualStudio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin G:\\VisualStudio\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I G:\\VisualStudio\\VC\\Tools\\MSVC\\14.28.29333\\include -I G:\\VisualStudio\\VC\\Tools\\MSVC\\14.28.29333\\atlmfc\\include -I G:\\VisualStudio\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Users\\1\\Documents\\Visual Studio 2019\\Projects\\Practica1\\Practica1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/stb_image.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/SDL/SDL_rect.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/camera.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/light.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/material.inl"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/anim.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/assimp/metadata.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/mesh.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/model.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/1/Documents/Visual Studio 2019/Projects/Practica1/Practica1/include/Skybox.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/final.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glad/glad.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/khr/khrplatform.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glfw3.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/glm.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/_fixes.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/setup.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/simd/platform.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/fwd.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/qualifier.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/vec2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec2.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/compute_vector_relational.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int2_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/scalar_int_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint2_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/scalar_uint_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/vec3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec3.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int3_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint3_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/vec4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec4.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int4_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint4_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat2x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double2x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat2x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat2x2.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/matrix.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat2x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double2x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat2x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat2x3.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double2x3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float2x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float2x3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat2x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double2x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat2x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat2x4.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double2x4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float2x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float2x4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat3x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double3x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat3x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat3x2.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double3x2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float3x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float3x2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat3x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double3x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat3x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat3x3.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double3x3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float3x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float3x3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat3x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double3x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat3x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat3x4.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double3x4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float3x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float3x4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat4x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double4x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat4x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat4x2.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double4x2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float4x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float4x2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat4x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double4x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat4x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat4x3.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double4x3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float4x3.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float4x3_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/mat4x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double4x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat4x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_mat4x4.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double4x4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float4x4.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float4x4_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_matrix.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/geometric.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_geometric.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/exponential.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec1.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_vec1.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_exponential.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/vector_relational.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_vector_relational.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/_vectorize.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/common.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_common.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/compute_common.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_double2x2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float2x2.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_float2x2_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/trigonometric.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_trigonometric.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/packing.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_packing.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_half.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_half.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/integer.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/func_integer.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/matrix_transform.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_projection.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/constants.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/scalar_constants.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/scalar_constants.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/constants.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_projection.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_clip_space.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_clip_space.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_transform.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/matrix_transform.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/matrix_transform.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/type_ptr.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/quaternion.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_relational.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_relational.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_float.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_common.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_geometric.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_geometric.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_common.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_float.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_quat.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_relational.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_relational.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/detail/type_quat.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_float_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_double.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_double_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_trigonometric.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_trigonometric.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_transform.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/quaternion_transform.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/quaternion.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/epsilon.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/epsilon.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/vec1.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool1.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_bool1_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float1.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_float1_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double1.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_double1_precision.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int1.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_int1_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint1.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/ext/vector_uint1_sized.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/glm/gtc/type_ptr.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_main.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_stdinc.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_config.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_platform.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/begin_code.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/close_code.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_assert.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_atomic.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_audio.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_error.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_endian.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_mutex.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_thread.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_rwops.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_clipboard.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_cpuinfo.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_events.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_video.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_pixels.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_surface.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_blendmode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_keyboard.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_keycode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_scancode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_mouse.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_joystick.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_gamecontroller.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_quit.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_gesture.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_touch.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_filesystem.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_haptic.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_hints.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_loadso.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_log.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_messagebox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_power.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_render.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_system.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_timer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/sdl/sdl_version.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/shader_m.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/modelanim.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/importer.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/types.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/defs.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/config.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/vector3.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/vector2.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/color4.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/matrix3x3.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/matrix4x4.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/quaternion.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/vector2.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/vector3.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/color4.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/quaternion.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/matrix3x3.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/matrix4x4.inl"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/mathfunctions.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/scene.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/texture.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/compiler/pushpack1.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/compiler/poppack1.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/mesh.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/aabb.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/camera.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/assimp/postprocess.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/meshanim.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/1/documents/visual studio 2019/projects/practica1/practica1/include/shader.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        }
+      ]
+    }
+  ]
+}
